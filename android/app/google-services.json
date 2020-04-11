@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "142948148688",
+    "firebase_url": "https://learn-a-fruit-d28db.firebaseio.com",
+    "project_id": "learn-a-fruit-d28db",
+    "storage_bucket": "learn-a-fruit-d28db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142948148688:android:1d9b1d53c1bae345a485d5",
+        "android_client_info": {
+          "package_name": "com.example.learn_a_fruit_flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142948148688-f6c1fe3gs2obof8vcqd34q1ap424edph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7F5V35jQAmWjXuL8JXIqRRpaYYu-7amw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142948148688-f6c1fe3gs2obof8vcqd34q1ap424edph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
