@@ -29,9 +29,9 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
   int _current = 0;
   
   List imageList = [
-    'assets/intro3.png',
+    'assets/intro1.png',
     'assets/intro2.png',
-    'assets/intro1.png'
+    'assets/intro3.png'
   ];
 
   File _image;
