@@ -4,6 +4,7 @@ import 'package:learn_a_fruit_flutter_app/model/user.dart';
 import 'package:learn_a_fruit_flutter_app/notifier/auth_notifier.dart';
 import 'package:learn_a_fruit_flutter_app/api/fruit_api.dart';
 import 'package:provider/provider.dart';
+import 'main_screen.dart';
 
 enum AuthMode { Signup, Login }
 
@@ -196,7 +197,23 @@ class _LoginState extends State<LoginScreen> {
                     minWidth: 200,
                     child: RaisedButton(
                       padding: EdgeInsets.all(10.0),
-                      onPressed: () => _submitForm(),
+                      onPressed: (){
+                        if(_authMode == AuthMode.Login){
+                          Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (BuildContext context){
+                                return MainScreen();
+                              },
+                            ),
+                          );
+                        }
+                        if(_authMode == AuthMode.Signup){
+                          setState(() {
+                          _authMode =
+                              _authMode == AuthMode.Login ? AuthMode.Signup : AuthMode.Login;
+                          });
+                        }
+                      },
                       child: Text(
                         _authMode == AuthMode.Login ? 'Login' : 'Signup',
                         style: TextStyle(fontSize: 20, color: Colors.white),

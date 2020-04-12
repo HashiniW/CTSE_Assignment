@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:learn_a_fruit_flutter_app/screens/intro_screen.dart';
+import 'package:learn_a_fruit_flutter_app/screens/login.dart';
 
 
 class SplashScreen extends StatefulWidget {
@@ -19,7 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Navigator.of(context).push(
       MaterialPageRoute(
         builder: (BuildContext context){
-          return IntroScreen();
+          return LoginScreen();
         },
       ),
     );

@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "142948148688",
-    "firebase_url": "https://learn-a-fruit-d28db.firebaseio.com",
-    "project_id": "learn-a-fruit-d28db",
-    "storage_bucket": "learn-a-fruit-d28db.appspot.com"
+    "project_number": "211969683474",
+    "firebase_url": "https://learn-a-fruit-3a32a.firebaseio.com",
+    "project_id": "learn-a-fruit-3a32a",
+    "storage_bucket": "learn-a-fruit-3a32a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:142948148688:android:1d9b1d53c1bae345a485d5",
+        "mobilesdk_app_id": "1:211969683474:android:c41961397ab6608d29a8cb",
         "android_client_info": {
           "package_name": "com.example.learn_a_fruit_flutter_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "142948148688-f6c1fe3gs2obof8vcqd34q1ap424edph.apps.googleusercontent.com",
+          "client_id": "211969683474-35hu41fe3bp4a0c717rrla955iib55oa.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD7F5V35jQAmWjXuL8JXIqRRpaYYu-7amw"
+          "current_key": "AIzaSyDYanM-RF4qkBDOi9flP-AoQFEzYHQh8rk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "142948148688-f6c1fe3gs2obof8vcqd34q1ap424edph.apps.googleusercontent.com",
+              "client_id": "211969683474-35hu41fe3bp4a0c717rrla955iib55oa.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

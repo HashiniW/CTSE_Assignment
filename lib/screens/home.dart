@@ -29,9 +29,9 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
   int _current = 0;
   
   List imageList = [
-    'assets/intro4.jpg',
-    'assets/intro5.jpg',
-    'assets/intro6.jpg'
+    'assets/intro3.png',
+    'assets/intro2.png',
+    'assets/intro1.png'
   ];
 
   File _image;
@@ -99,7 +99,7 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
                 ),
                 SizedBox(width: 10.0),
                 Text(
-                  authNotifier.user != null ?  authNotifier.user.displayName : "Feed",
+                  authNotifier.user != null ?  authNotifier.user.displayName : "Fruity!",
                   style: TextStyle(
                     fontSize: 23,
                     fontWeight: FontWeight.w600,
@@ -111,7 +111,7 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
                     Navigator.of(context).push(
                       MaterialPageRoute(
                         builder: (BuildContext context){
-                          return Profile(isUpdating: false,);
+                          return Profile(isUpdating: false);
                         },
                       ),
                     );
